@@ -1,0 +1,28 @@
+h3{
+    color:orangered;
+}
+
+.sub{
+    width: 100px;
+     height: 30px;
+    color: white;
+    border-radius: 3px;
+    background-color: rgb(160, 4, 4);
+    margin: 10px;
+  
+}
+.join{
+    width: 100px;
+     height: 35px;
+     background-color: blue;
+     color: white;
+     border-radius: 5%;
+     margin-right: 15px;
+}
+.tweet{
+    width: 150px;
+    border-radius: 5px;
+    background-color: rgb(15, 142, 220);
+    color: black;
+    padding: 5px;
+}
