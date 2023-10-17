@@ -1,0 +1,63 @@
+.grid{
+    margin-top: 20px;
+    display: grid;
+    width: 1000px;
+    grid-template-columns: 30% 50%  20%;
+}
+.one {
+   
+    height: 200px;
+    background-color: blue;
+}
+.two{
+
+    height: 200px;
+    background-color: blueviolet;
+}
+.three{
+
+    height: 200px;
+    background-color: red;
+}
+.grid1{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+.one1 {
+
+    height: 200px;
+    background-color: khaki;
+}
+.two1 {
+  
+    height: 200px;
+    background-color: green;
+}
+.three1{
+  
+    height: 200px;
+    background-color: yellow;
+}
+.grid2{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    row-gap: 10px;
+}
+.one2{
+  
+    height: 200px;
+    background-color: blue;
+}
+.two2 {
+ 
+    height: 200px;
+    background-color: blueviolet;
+}
+.three2{
+
+    height: 200px;
+    background-color: red;
+}
