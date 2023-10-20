@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    overflow: hidden;
 
 }
 
@@ -14,9 +15,15 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 align-items: center;
+background-color: rgba(60, 138, 187, 0.064);
+position: fixed;
+left: 0px;
+right: 0px;
+top: 0px;
+height: 100px;
 }
 
-.nav-logo{
+.nav-logo {
     display: flex;
     flex-direction: row;
     margin: 20px;
@@ -26,12 +33,14 @@ align-items: center;
  
 }
 .nav-logo img{
-    width: 56px;
+    width: 50px;
 }
+
 .nav-left{
   width: auto;
     float: left;
 }
+
 .nav-middle{
 justify-content: center;
 width: auto;
@@ -51,13 +60,20 @@ width: auto;
 /*navbar */
 
 .container{
+    padding:20px 10px;
+
+    margin: 100px  10px 10px 100px;
     display: grid;
-    grid-template-columns: 95px 1fr;
+    grid-template-columns:  1fr;
     }
 
 /*side bar starts*/
 .sidebar{
-  
+   position: fixed;
+   left: 0px;
+   top: 100px;
+   right: 600px;
+
   overflow-x: hidden;
 
 
@@ -81,14 +97,15 @@ width: auto;
 
 .hero{
     padding: 10px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-   border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 15px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     column-gap: 20px;
     row-gap: 20px;
-    height: 100vh;
-    overflow: scroll;
+    height: 600px;
+
+    overflow-y:  auto;
     
   
   
@@ -96,15 +113,18 @@ width: auto;
 
 /* thubnail card starts here*/
 .card-body{
+    padding: 0px 5px;
     width: 330px;
     height: 301px;
 }
 .img-card{
     width: 330px;
     height:180px ;
+   
 }
 .img-card img{
     width: 100%;
+    border-radius: 10px;
   
 }
 .card-data{
