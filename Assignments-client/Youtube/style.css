@@ -4,10 +4,8 @@
     box-sizing: border-box;
     overflow: hidden;
 
+
 }
-
-
-
 /*navbar */
 header{
  width: 100%;
@@ -22,7 +20,6 @@ right: 0px;
 top: 0px;
 height: 100px;
 }
-
 .nav-logo {
     display: flex;
     flex-direction: row;
@@ -30,21 +27,18 @@ height: 100px;
     padding: 10px;
     width: 80%;
     gap: 20px;
- 
 }
 .nav-logo img{
     width: 50px;
 }
 
 .nav-left{
-  width: auto;
+   width: auto;
     float: left;
 }
-
 .nav-middle{
 justify-content: center;
 width: auto;
-
 }
 .nav-right{
 float: right;
@@ -57,43 +51,51 @@ width: auto;
      align-items: flex-start;
   
 }
+.nav-logo  img:hover{
+    background-color: darkgrey;
+    border-radius: 20px;
+}
 /*navbar */
 
-.container{
-    padding:20px 10px;
-
-    margin: 100px  10px 10px 100px;
-    display: grid;
-    grid-template-columns:  1fr;
-    }
 
 /*side bar starts*/
 .sidebar{
+    width: 100px;
+    height: 100vh;
    position: fixed;
    left: 0px;
    top: 100px;
    right: 600px;
-
-  overflow-x: hidden;
-
-
+   overflow-x: hidden;
 }
+
 .icon{
     width: 100px;
-    height: 100px;
-    padding-top: 20px;
+    height: 80px;
+   
     display: flex;
     flex-direction: column;
      justify-content: center;
      align-items: center;
-   
-   
-}
+  }
 .icon img{
     width: 40%;
+    height: auto;
+}
+
+.icon:hover{
+    background-color: rgba(101, 97, 80, 0.384);
+    border-radius: 20px;
 }
 /*side bar ends*/
-
+/*container start here*/
+.container{
+    padding:20px 10px;
+    margin: 100px  10px 10px 100px;
+    display: grid;
+    grid-template-columns:  1fr;
+ 
+    }
 
 .hero{
     padding: 10px;
@@ -104,11 +106,7 @@ width: auto;
     column-gap: 20px;
     row-gap: 20px;
     height: 600px;
-
-    overflow-y:  auto;
-    
-  
-  
+    overflow-y: scroll;
 }
 
 /* thubnail card starts here*/
@@ -159,3 +157,4 @@ width: auto;
     margin-bottom: 15px;
 }
 /* thubnail data ends here*/
+
